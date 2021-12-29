@@ -1,0 +1,28 @@
+@import 'vars';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+/* Bootstrap default style overrides */
+.btn {
+  font-size: 0.9375rem;
+}
+
+.btn:focus, .btn:hover {
+  transform: translateY(-2px);
+}
+
+hr {
+  border-color: $light;
+}
+
+// Additional helper styles
+.text-small {
+  font-size: 0.875rem;
+}
+
+.hover-effect {
+  transition: transform .18s ease-in-out;
+}
+
+.hover-effect:hover {
+  transform: translateY(-2px);
+}
